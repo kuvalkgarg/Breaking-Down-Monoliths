@@ -119,7 +119,7 @@ docker-compose down
 
 # <p align = "center"> Team Members </p>
 
-* ### [Harsha Pai](https://github.com/kharshapai)
-* ### [Kunal E](https://github.com/kunaldo)
-* ### [Kuval Kush Garg](https://github.com/kuvalkgarg)
-* ### [Mayank Agrawal](https://github.com/mayankagrawal)
+### [Harsha Pai](https://github.com/HarshaPaii)
+### [Kunal E](https://github.com/Kunal23002)
+### [Kuval Kush Garg](https://github.com/kuvalkgarg)
+### [Mayank Agrawal](https://github.com/bit8mayank)
