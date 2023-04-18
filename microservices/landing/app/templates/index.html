@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Microservices Calculator</title>
+    <style>
+        body {
+            background-color: #e0e0e0;
+            color: #444;
+            font-family: "Times New Roman", Times, serif;
+            font-weight: 400;
+            line-height: 1.4;
+            margin: 20px;
+            padding: 20px;
+        }
+            h1 {
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 48px;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+        color: #4caf50;
+        border-bottom: 2px solid #4caf50;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    form {
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 25px;
+        background-color: #f5f5f5;
+        border-radius: 15px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    input[type="submit"] {
+        display: block;
+        margin: 0 auto;
+        padding: 8px 16px;
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: capitalize;
+        letter-spacing: normal;
+        background-color: #4caf50;
+        color: #fff;
+        border: 1px solid #4caf50;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.4s ease, color 0.4s ease;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #66bb6a;
+        color: #000;
+    }
+
+    select {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #fff;
+        color: #444;
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: capitalize;
+        letter-spacing: normal;
+    }
+
+    input[name="first"],
+    input[name="second"] {
+        display: block;
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #fff;
+        color: #444;
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: capitalize;
+        letter-spacing: normal;
+    }
+
+    input::placeholder {
+        color: #999;
+        font-weight: 400;
+        font-size: 20px;
+    }
+</style>
+</head>
+
+<body>
+    <h1>Microservices Calculator</h1>
+    <form action="" method="POST">
+        <input type="number" name="first" placeholder="[NUMBER #1 GOES HERE]" required>
+        <input type="number" name="second" placeholder="[NUMBER #2 GOES HERE]" required>
+        <select name="operation">
+            <option value="add">Addition</option>
+            <option value="minus">Subtraction</option>
+            <option value="multiply">Multiplication</option>
+            <option value="divide">Division</option>
+            <option value="modulo">Modulo</option>
+            <option value="exponent">Exponent</option>
+            <option value="gcd">GCD</option>
+        </select>
+        <input type="submit" name="submit_button" value="Solve">
+    </form>
+    {% for message in get_flashed_messages() %}
+    {{message}}
+    {% endfor %}
+</body>
+
+</html>
