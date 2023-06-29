@@ -1,4 +1,5 @@
-# College Assignment Submission
+# Breaking Down Monoliths - College Assignment Submission
+Given below are the details of the problem statement along with the instructions and other details
 
 # <p align = "center"> Breaking down monoliths 🪨⛏️ </p>
 # <p align = "center"> Problem Statement: </p>
