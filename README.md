@@ -1,3 +1,5 @@
+# College Assignment Submission
+
 # <p align = "center"> Breaking down monoliths 🪨⛏️ </p>
 # <p align = "center"> Problem Statement: </p>
 This problem statement has two objectives:
@@ -115,11 +117,3 @@ docker-compose down
 │   │   └── requirements.txt # same as landing/app/requirements.txt
 │   │  
 ```
-
-
-# <p align = "center"> Team Members </p>
-
-### [Harsha Pai](https://github.com/HarshaPaii)
-### [Kunal E](https://github.com/Kunal23002)
-### [Kuval Kush Garg](https://github.com/kuvalkgarg)
-### [Mayank Agrawal](https://github.com/bit8mayank)
