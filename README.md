@@ -1,8 +1,6 @@
 # Breaking Down Monoliths - College Assignment Submission
 Given below are the details of the problem statement along with the instructions and other details
 
-# <p align = "center"> Breaking down monoliths 🪨⛏️ </p>
-# <p align = "center"> Problem Statement: </p>
 This problem statement has two objectives:
 - Get familiar with reading error stack trace and debugging code.
 - Convert a monolith architecture based docker-compose application into a microservices based architecture.  
